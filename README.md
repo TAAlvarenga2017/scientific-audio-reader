@@ -157,73 +157,6 @@ Cada etapa possui uma função específica:
 
 ---
 
-## 🧪 Exemplo de verbalização científica
-
-### Entrada em LaTeX
-
-```latex
-\frac{x^2 - 1}{x - 1}
-```
-
-### Saída preparada para fala
-
-```text
-fração com numerador x ao quadrado menos um e denominador x menos um.
-```
-
----
-
-### Entrada com símbolo estatístico
-
-```text
-β
-```
-
-### Saída preparada para fala
-
-```text
-beta
-```
-
----
-
-### Entrada com equação
-
-```text
-y = β0 + β1x + ε
-```
-
-### Saída preparada para fala
-
-```text
-y igual a beta zero mais beta um vezes x mais erro epsilon.
-```
-
----
-
-## 🧭 Modos de leitura
-
-O sistema pode trabalhar com diferentes níveis de verbalização.
-
-### 🟢 Modo simples
-
-Prioriza fluidez.
-
-Indicado para documentos com pouco conteúdo matemático ou quando o objetivo é ouvir uma versão mais direta do texto.
-
-### 🔵 Modo técnico
-
-Tenta verbalizar símbolos, fórmulas, termos estatísticos e expressões matemáticas.
-
-Indicado para artigos científicos, relatórios técnicos e materiais com equações.
-
-### 🟣 Modo acadêmico
-
-Preserva mais detalhes do documento, incluindo maior quantidade de conteúdo técnico, seções e referências.
-
-Indicado para uma leitura mais fiel de artigos científicos.
-
----
 
 ## 💻 Interface com Gradio
 
@@ -256,25 +189,6 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 pip install piper-tts
-```
-
----
-
-## 🗣️ Configuração da voz do Piper
-
-Baixe uma voz do Piper em português brasileiro e coloque os arquivos na pasta `voices/` com os seguintes nomes:
-
-```text
-pt_BR-voz.onnx
-pt_BR-voz.onnx.json
-```
-
-A estrutura esperada é:
-
-```text
-voices/
-├─ pt_BR-voz.onnx
-└─ pt_BR-voz.onnx.json
 ```
 
 ---
