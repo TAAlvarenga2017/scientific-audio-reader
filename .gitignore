@@ -1,0 +1,47 @@
+venv/
+__pycache__/
+*.pyc
+outputs/*.wav
+outputs/*.mp3
+outputs/*.txt
+voices/*
+!.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Saídas geradas
+output/*
+!output/.gitkeep
+
+# Entradas de teste
+input/*
+!input/.gitkeep
+
+# Vozes do Piper
+voices/*
+!voices/.gitkeep
+
+# Arquivos de áudio
+*.wav
+*.mp3
+*.ogg
+
+# Logs
+*.log
+
+# Variáveis de ambiente
+.env
